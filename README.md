@@ -30,4 +30,4 @@ the integrity of authentication is compromised.
 
 ## Usage
 ```bash
-python jwt_audit.py --token "<JWT>" --secrets secrets.txt
+python jwt_audit.py -j <JWT> -w secrets.txt
